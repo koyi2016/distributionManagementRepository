@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>example</groupId>
     <artifactId>distributionManagementRepository</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <distributionManagement>
-        <repository>
-            <id>org.example</id>
-            <name>distributionManagementRepository</name>
-            <url>https://github.com/koyi2016/distributionManagementRepository</url>
-        </repository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>example</id>-->
+<!--            <name>distributionManagementRepository</name>-->
+<!--            <url>https://github.com/koyi2016/distributionManagementRepository</url>-->
+<!--        </repository>-->
+<!--    </distributionManagement>-->
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
